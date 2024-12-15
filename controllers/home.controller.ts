@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
 
 export const index = (req: Request, res: Response) => {
-    res.send("Trang chủ");
+    res.render("client/pages/home/index")
 }
